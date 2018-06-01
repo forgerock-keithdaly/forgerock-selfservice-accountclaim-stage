@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1504874836833
+Build-Jdk: 1.8.0_66
+Built-By: keithdaly
+Bundle-ManifestVersion: 2
+Bundle-Name: AccountClaimStage
+Bundle-SymbolicName: forgerock-selfservice-accountclaim-stage
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.forgerock.selfservice.accountclaim;uses:="javax.inje
+ ct,org.forgerock.json,org.forgerock.json.resource,org.forgerock.selfser
+ vice.core,org.forgerock.selfservice.core.annotations,org.forgerock.self
+ service.core.config";version="0.0.1"
+Import-Package: javax.inject;version="[1.0,2)",org.forgerock.json;versio
+ n="[21.0,22)",org.forgerock.json.resource;version="[21.0,22)",org.forge
+ rock.selfservice.core;version="[21.0,22)",org.forgerock.selfservice.cor
+ e.annotations;version="[21.0,22)",org.forgerock.selfservice.core.config
+ ;version="[21.0,22)",org.forgerock.selfservice.core.util;version="[21.0
+ ,22)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326
